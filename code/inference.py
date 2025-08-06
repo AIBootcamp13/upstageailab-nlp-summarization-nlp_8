@@ -114,5 +114,5 @@ if __name__ == "__main__":
     with open(config_path, "r") as file:
         loaded_config = yaml.safe_load(file)
     # 사용할 checkpoint 경로 지정
-    loaded_config['inference']['ckt_path'] = "./output/bart_decay_0016_202507301204/checkpoint-1500"
+    loaded_config['inference']['ckt_path'] = "./kfold_ensemble_checkpoint"
     inference(loaded_config)
