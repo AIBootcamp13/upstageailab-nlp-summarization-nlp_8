@@ -1,4 +1,4 @@
-# Title (Please modify the title)
+# NLP Dialogue Summarization Competition
 ## Team
 
 | ![이정민](https://avatars.githubusercontent.com/u/122961094?v=4) | ![김태현](https://avatars.githubusercontent.com/u/7031901?v=4) | ![문진숙](https://avatars.githubusercontent.com/u/204665219?v=4) | ![강연경](https://avatars.githubusercontent.com/u/5043251?v=4) | ![진 정](https://avatars.githubusercontent.com/u/87558804?v=4) |
