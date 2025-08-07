@@ -41,22 +41,23 @@
 
 ### Directory
 
-- _Insert your directory structure_
-
-e.g.
 ```
-├── code
-│   ├── jupyter_notebooks
-│   │   └── model_train.ipynb
-│   └── train.py
-├── docs
-│   ├── pdf
-│   │   └── (Template) [패스트캠퍼스] Upstage AI Lab 1기_그룹 스터디 .pptx
-│   └── paper
-└── input
-    └── data
-        ├── eval
-        └── train
+├── Fine Tuning
+│   ├── average_checkpoints.py
+│   ├── baseline.ipynb
+│   ├── config.yaml
+│   ├── inference.py
+│   ├── kfold_train.py
+│   ├── requirements.txt
+│   ├── solar_api.ipynb
+│   ├── solar_reasoning.py
+│   ├── test_topic_with_example.csv
+│   ├── train.py
+│   └── train_sweep.py
+├── Prompt Engineering
+│   ├── solar_reasoning.py
+│   └── test_topic_with_example.csv
+└── README.md
 ```
 
 ## 3. Data descrption
