@@ -102,7 +102,7 @@
 
 ### Prompt Engineering VS Fine-Tuning
 - 전반적으로 다양한 답변을 제공해주는 Prompt Engineering 방식은 이번 대회의 평가 지표인 Rouge score에 맞춰 특정 방식으로 요약 방식을 맞춰야 한다는 점에서 높은 점수를 기록하기 어려웠음
-- 일반적으로 hard voting 방식이 자연어 처리에서는 좋은 성능을 보여주기 어려웠는데, kfold를 이용하여 모델을 훈련하고 최고점 3개를 cosine similarity로 hard-voting한 결과가 가장 좋은 점수를 보여주었음
+- 일반적으로 hard voting 방식이 자연어 처리에서는 좋은 성능을 보여주기 어려웠는데, 최고점 3개의 csv를 cosine similarity로 hard-voting한 결과가 가장 좋은 점수를 보여주었음
 
 - Prompt Engineering의 경우
 
