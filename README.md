@@ -70,7 +70,7 @@ Project_Root
   - Object Entity : PER / ORG 이외에도 다양한 관계 포함 
    
 ### 문장 길이 분포 분석
-![sentence_length](/assets/readme/cartoon.png)
+![sentence_length](/image/sentence_length.png)
   - 단어 수 기준으로 최소 3단어, 최대 108단어, 평균 20단어의 길이
   - 108 단어 전체를 처리할 수 있도록 여유 토큰 포함 토큰화 시 max_length=128로 설정
   - 전체적으로 데이터들이 비교적 균일하여 훈련에 안정성이 있을 것
@@ -83,7 +83,7 @@ Project_Root
   - Subject와 Object에 Entity Marking을 해줌으로써 순서에 따라 Subject, Object 관계를 나누지 않도록 유도
 
 ### 관계-Entity 타입 매핑
-![sentence_length](/assets/readme/cartoon.png)
+![Entity_Mapping](/image/hitmap.png)
 - Subject - Object 조합에서 불가능한 조합이 없음
 - ORG / PER로 구성된 관계가 전체의 60%를 차지
   - 조직과 사람 중심의 관계 추출이 중요한 포인트\
@@ -91,7 +91,7 @@ Project_Root
 > Subject와 Object의 관계 파악 → 세부 관계 예측하는 계층적 모델링 설계 가능
 
 ### source 별 특성 차이 분석
-![sentence_length](/assets/readme/cartoon.png)
+![sentence_length](/image/source.png)
 - 모든 source가 비슷한 길이 분포를 가짐
   - 문장 길이로는 소스 구분이 어려움
 - Wikipedia
@@ -110,7 +110,7 @@ Project_Root
 ## 실험 추적 및 평가
 wandb를 이용하여 진행하였습니다.
 
-![sentence_length](/assets/readme/cartoon.png)
+![sentence_length](/image/wandb.png)
 
 ## 실험 내용
 | Strategy | f1_score | auprc|
